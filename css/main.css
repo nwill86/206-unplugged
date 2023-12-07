@@ -87,17 +87,36 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   /* -------------------- Base Header - Footer Styles -------------------- */
+/* -------------------- Base Header - Footer Styles -------------------- */
+
+.content-wrapper {
+width: 90%;
+}
+
 header {
   display: flex;
   justify-content: center;
+  padding: 15px 0;
 }
 
-header .content-wrapper{
+.header-divider {
+  width: 100%;
+  padding: 10px 0;
+}
+
+header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding: 50px 0;
+  margin: 0;
+}
+
+header nav {
+  width: 60%;
+  padding: 15px 0 20px 0;
+  margin: 0;
 }
 
 header nav ul {
@@ -113,19 +132,29 @@ footer {
   text-align: center;
 }
 
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
+
 footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
-
+  padding: 20px 0;
 }
 
 footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
-
+  padding: 20px 0;
 }
+
+footer p {
+  margin: 0;
+}
+
 /* -------------------- Mobile Styles - Homepage -------------------- */
 
 /* Hero Area */
@@ -150,6 +179,14 @@ aside {
   justify-content: center;
 }
 
+.features article {
+  width: 60%;
+}
+
+.features p {
+  margin: 0;
+}
+
 .features .features-items-descriptions {
   display: flex;
   justify-content: center;
@@ -162,6 +199,10 @@ aside {
 .reviews {
   display: flex;
   justify-content: center;
+}
+
+.reviews h3 {
+  width: 100%;
 }
 
 /* ==========================================================================
@@ -178,8 +219,11 @@ aside {
   justify-content: center;
 }
 
+.contact-content p {
+  margin: 0;
+}
 
-   /* ==========================================================================
+/* ==========================================================================
   FAQ Page
    ========================================================================== */
 
@@ -198,7 +242,7 @@ aside {
 
 
 
-   /* ==========================================================================
+/* ==========================================================================
    Helper classes
    ========================================================================== */
 
@@ -291,9 +335,9 @@ aside {
 }
 
 @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
@@ -304,6 +348,7 @@ aside {
    ========================================================================== */
 
 @media print {
+
   *,
   *::before,
   *::after {
@@ -371,4 +416,3 @@ aside {
     page-break-after: avoid;
   }
 }
-
