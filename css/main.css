@@ -98,6 +98,7 @@ body {
   font-size: 1em;
   text-align: left;
   color: #e2e3ed;
+  background-color: #202322;
 }
 
 ul,
@@ -116,6 +117,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
   font-weight: 500;
+  margin: 0;
 }
 
 h3,
@@ -127,8 +129,8 @@ h4 {
 }
 
 p {
-  font-size: 0.875em;
-  line-height: 1.285em;
+  font-size: .875em;
+  line-height: 1.285;
 }
 
 img {
@@ -145,7 +147,6 @@ address {
 
 
 .content-wrapper {
-  outline: 3px dotted red;
   width: 90%;
   margin: 50px 0;
 }
@@ -314,17 +315,19 @@ input[type=button] {
   margin: 30px 0;
 }
 
-.features i {
-  font-size: 3.75em;
-  margin-bottom: 40px;
-}
-
 .features .features-items {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-flow: row wrap;
 }
+
+
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
 
 .features p {
   margin: 0;
@@ -631,7 +634,6 @@ input[type=button] {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: row;
   }
 
   footer .contact {
@@ -645,7 +647,7 @@ input[type=button] {
   }
 
   .footer p {
-    line-height: 1.285em;
+    line-height: 1.285;
   }
 
   footer .social-icons {
@@ -710,7 +712,7 @@ input[type=button] {
 
   .faq h4,
   .faq p {
-    font-size: 0.875em;
+    font-size: .875em;
     line-height: 1.125;
   }
 }
@@ -756,7 +758,7 @@ input[type=button] {
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
-    width: 40%;
+    width: 30%;
 
   }
 
