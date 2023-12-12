@@ -143,6 +143,7 @@ address {
   font-style: normal;
 }
 
+
 .content-wrapper {
   outline: 3px dotted red;
   width: 90%;
@@ -226,6 +227,14 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+footer .social-icons p i {
+  font-size: 1.3125em;
 }
 
 footer .copyright {
@@ -547,6 +556,10 @@ input[type=button] {
 
   /* Hero Area */
 
+  .hero-area {
+    min-height: 600px;
+  }
+
   .hero-area h1 {
     font-size: 3em;
     line-height: 1;
@@ -583,6 +596,11 @@ input[type=button] {
   .features .features-item-description {
     width: 62%;
   }
+
+  .features i {
+    margin-bottom: 30px;
+  }
+
 
   /* Reviews */
   .reviews article {
@@ -630,6 +648,10 @@ input[type=button] {
     line-height: 1.285em;
   }
 
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
+  }
 
   footer .copyright {
     width: 100%;
